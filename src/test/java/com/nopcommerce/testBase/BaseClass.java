@@ -42,7 +42,7 @@ public class BaseClass {
 	{
 		//Load config.properties file
 		configPropObj=new Properties();
-		FileInputStream configfile=new FileInputStream(System.getProperty("user.dir")+"\\resources\\config.properties");
+		FileInputStream configfile=new FileInputStream(System.getProperty("user.dir")+"/resources/config.properties");
 		configPropObj.load(configfile);
 		// end of loading config.properties file
 		
@@ -54,23 +54,7 @@ public class BaseClass {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		}
-		else if(br.equals("edge"))
-		{
-			//EdgeOptions options=new EdgeOptions();
-			//options.setHeadless(true);
-			
-			WebDriverManager.edgedriver().setup();
-			driver=new EdgeDriver();
-		}
-		else if(br.equals("firefox"))
-		{
-			//FirefoxOptions options=new FirefoxOptions();
-			//options.setHeadless(true);
-			
-			WebDriverManager.firefoxdriver().setup();
-			driver=new FirefoxDriver();
-		}
-		
+
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // implicit wait
 	}
