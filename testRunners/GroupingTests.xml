@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="nopCommerce">
+<suite name="seleniumProject">
 	
 
 	<listeners>
 		<listener
-			class-name="com.nopcommerce.utilities.ExtentReportManager" />
+			class-name="com.seleniumProject.utilities.ExtentReportManager" />
 	</listeners>
 
-	<test name="nopCommerceTests">
+	<test name="seleniumProjectTests">
 
 		<groups>
 			<run>
@@ -19,7 +19,7 @@
 
 		<parameter name="browser" value="chrome" />
 		<packages>
-			<package name="com.nopcommerce.testCases" />
+			<package name="com.seleniumProject.testCases" />
 		</packages>
 	</test>
 

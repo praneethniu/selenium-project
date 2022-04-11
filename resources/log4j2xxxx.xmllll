@@ -19,7 +19,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="com.nopcommerce.testCases" level="ALL" additivity="true">
+        <Logger name="com.seleniumProject.testCases" level="ALL" additivity="true">
             <appender-ref ref="fileLogger" level="ALL" />
         </Logger>
         <Root level="TRACE" additivity="false">

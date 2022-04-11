@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="nopCommerce" parallel="tests" thread-count="2">
+<suite name="seleniumProject" parallel="tests" thread-count="2">
 	
 	<listeners>
-		<listener class-name="com.nopcommerce.utilities.ExtentReportManager"/>
+		<listener class-name="com.seleniumProject.utilities.ExtentReportManager"/>
 	</listeners>
 	
 	<test name="chromeTest">
 		<parameter name="browser" value="chrome"/>
 		<classes>
-		<class name="com.nopcommerce.testCases.TC_LoginTest_001" /> 
+		<class name="com.seleniumProject.testCases.TC_LoginTest_001" />
 		</classes>
 	</test>
 	
 
-	
 	
 </suite>
