@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.812 s <<< FAILURE! - in TestSuite
-com.seleniumProject.testCases.TC_LoginTest_001.loginTest  Time elapsed: 6.783 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at com.seleniumProject.testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:47)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.847 s - in TestSuite

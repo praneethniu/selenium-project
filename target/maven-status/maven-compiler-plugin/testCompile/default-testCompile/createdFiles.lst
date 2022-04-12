@@ -1,11 +1,6 @@
-com/seleniumProject/pageObjects/AddcustomerPage.class
 com/seleniumProject/utilities/ExtentReportManager.class
-com/seleniumProject/pageObjects/SearchCustomerPage.class
-com/seleniumProject/testCases/TC_SearchCustomerByEmail_004.class
-com/seleniumProject/testCases/TC_SearchCustomerByName_005.class
+com/seleniumProject/pageObjects/PeachHomePage.class
 com/seleniumProject/testCases/TC_LoginTest_001.class
-com/seleniumProject/pageObjects/LoginPage.class
-com/seleniumProject/testCases/TC_LoginDDT_002.class
 com/seleniumProject/testBase/BaseClass.class
+com/seleniumProject/pageObjects/LoginPage.class
 com/seleniumProject/utilities/XLUtility.class
-com/seleniumProject/testCases/TC_AddCustomerTest_003.class
